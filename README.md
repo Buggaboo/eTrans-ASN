@@ -1,17 +1,17 @@
-=This project contains the JAC parser and runtime.
+#This project contains the JAC parser and runtime.
 
-==Changing the Grammar
+##Changing the Grammar
 
 To change the grammar you need to do the following:
-- Download javacc
-- Make modifications to the AsnParser.jj file
-- Run the commands from the runjavacc.bat file included in the project.  This
+* Download javacc
+* Make modifications to the AsnParser.jj file
+* Run the commands from the runjavacc.bat file included in the project.  This
   will generate some of the java classes that go under the javacc directory in
   the project.  You will need to modify the batch file for your environment.
-- Copy the generated java files into the project.
-- Rebuild the project.
+* Copy the generated java files into the project.
+* Rebuild the project.
 
-==Running the Parser
+##Running the Parser
 
 To run the parser on a set of ASN definitions to the following:
 * Build the project.
