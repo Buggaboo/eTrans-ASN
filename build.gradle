@@ -8,6 +8,7 @@ jar {
     manifest {
         attributes 'Implementation-Title': 'eTrans-ASN',
                    'Implementation-Version': version
+        attributes 'Main-Class': 'javacc.AsnParser'
     }
 }
 
